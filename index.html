@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IISER Bhopal Timetable</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="myscripts.js"></script>
+</head>
+
+<body>
+    <h2>IISER Bhopal Timetable</h2>
+    <label for="semester">Select Semester:</label>
+    <select id="semester">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select>
+    <button onclick="generateTimetable()">Generate Timetable</button>
+    <table id="timetable">
+        <tr>
+            <th>Day</th>
+            <th>09:00-09:55</th>
+            <th>10:00-10:55</th>
+            <th>11:00-11:55</th>
+            <th>12:00-12:55</th>
+            <th>02:00-02:55</th>
+            <th>03:00-03:55</th>
+            <th>04:00-04:55</th>
+            <th>05:00-05:55</th>
+            <th>06:00-06:55</th>
+        </tr>
+    </table>
+</body>
+
+</html>
